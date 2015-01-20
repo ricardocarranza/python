@@ -1,0 +1,9 @@
+<div class="container">
+	<h1>Página de prueba</h1>
+	<h2>Contenido de la página principal</h2>
+	{% for equipo in equipos %}
+		Equipo:  {{equipo.pc}} <br>
+		Usuario: {{equipo.usuario}}<br>
+		Estado:  {{equipo.estado}}<br><br>
+	{% endfor %}
+</div>
